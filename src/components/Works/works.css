@@ -1,0 +1,271 @@
+#works{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    border-bottom: 1px solid red;
+}
+
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+    margin-right: 12rem;
+    
+}
+
+.worksImg{
+    object-fit: cover;
+    height: 20rem;
+    margin-left: 7.2rem;
+    /* padding:5rem; */
+    padding-right: 1.9rem;
+    padding-top: 1rem;
+    width: 20rem;
+    filter: brightness(40%);
+ 
+}
+
+.worksImg0{
+    object-fit: cover;
+    height: 20rem;
+    margin-left: 5rem;
+    /* padding:5rem; */
+    padding-right: 1.9rem;
+    padding-top: 1rem;
+    width: 20rem;
+    filter: brightness(40%);
+ 
+}
+
+.worksImg1{
+    object-fit: cover;
+    height: 20rem;
+    margin-left: 6.6rem;
+    /* padding:5rem; */
+    padding-right: 1.9rem;
+    padding-top: 1rem;
+    width: 17.9rem;
+    filter: brightness(40%);
+ 
+}
+
+.worksImg2{
+    object-fit: cover;
+    height: 20rem;
+    margin-left: -0.3rem;
+    /* padding:5rem; */
+    padding-right: 1.9rem;
+    padding-top:0.5rem;
+    width: 20rem;
+    filter: brightness(40%);
+ 
+}
+
+.worksImg3{
+    object-fit: cover;
+    height: 20rem;
+    margin-left: 7rem;
+    /* padding:5rem; */
+    padding-right: 1.9rem;
+    padding-top:0.5rem;
+    width: 20rem;
+    filter: brightness(40%);
+ 
+}
+
+.worksImg4{
+    object-fit: cover;
+    height: 20rem;
+    margin-left: 62rem;
+    /* padding:5rem; */
+    padding-right: 1.8rem;
+    padding-top:0.5rem;
+    width: 30rem;
+    filter: brightness(40%);
+    margin-top: -20rem;
+ 
+}
+
+.workBtn{
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0;   
+}
+
+.Tic{
+    display: flex;
+    margin-left: -18rem;
+    position: relative;
+    margin-top: 2rem;
+    font-weight: medium;
+   
+}
+
+.Land{
+    display: flex;
+    margin-left: -16rem;
+    position: relative;
+    margin-top: 2rem;
+    font-weight: medium; 
+}
+
+.Pass{
+    /* display: flex; */
+    margin-left: 59rem;
+    position: relative;
+    /* margin-top: 2rem; */
+    font-weight: medium; 
+    margin-top: -20rem;
+}
+
+.Passbutton{
+    color: black;
+    display: flex;
+    margin-left: 59rem;
+    position: relative;
+    margin-top: -13rem;
+    background: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;     
+}
+
+.Quiz{
+    display: flex;
+    margin-left: -14.5rem;
+    position: relative;
+    margin-top: 2rem;
+    font-weight: medium; 
+}
+
+.Calc{
+    display: flex;
+    margin-left: -15.5rem;
+    position: relative;
+    margin-top: 2rem;
+    font-weight: medium; 
+}
+
+.Calcbutton{
+    color: black;
+    display: flex;
+    margin-left: -7rem;
+    position: relative;
+    margin-top: 7rem;
+    background: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;     
+}
+
+.ticbutton{
+    color: black;
+    display: flex;
+    margin-left: -10rem;
+    position: relative;
+    margin-top: 7rem;
+    background: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;    
+}
+
+.Landbutton{
+    color: black;
+    display: flex;
+    margin-left: -8rem;
+    position: relative;
+    margin-top: 7rem;
+    background: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;   
+}
+
+.Quizbutton{
+    color: black;
+    display: flex;
+    margin-left: -6.5rem;
+    position: relative;
+    margin-top: 7rem;
+    background: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;   
+}
+
+.Eccbutton{
+    color: black;
+    display: flex;
+    margin-left: -11rem;
+    position: relative;
+    margin-top: 7rem;
+    background: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;   
+}
+
+@media screen and (max-width:585px){
+    .worksImg{
+        height: 48vw;
+    }
+    .worksImg0{
+        height: 48vw;
+    }
+    .worksImg1{
+        height: 48vw;
+    }
+    .worksImg2{
+        height: 48vw;
+    }
+    .worksImg3{
+        height: 48vw;
+    }
+    .worksImg4{
+        height: 48vw;
+    }
+
+}
